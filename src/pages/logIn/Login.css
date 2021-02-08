@@ -1,0 +1,45 @@
+
+  .Login {
+    padding: 60px 0;
+    align-items: left;
+    background-color: aliceblue;
+    height: 100vh;
+    
+  }
+
+  .btn-close{
+      margin-left: 5vw;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+    margin-top: 5%;
+
+  }
+
+  .Login h1{
+      margin-top: 0;
+      text-align: center;
+  }
+
+  .Image{
+      margin: 0;
+      margin-bottom: 10px;
+      max-height: 300px;
+      width: 100%;
+  }
+
+@media all and (max-width: 412px) {
+  .Login {
+    padding: 60px 0;
+    
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 200px;
+    margin-top: 10%;
+
+  }
+}

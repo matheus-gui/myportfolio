@@ -1,0 +1,93 @@
+.cont{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    height: 100vh;
+    width: 100vmax;
+    margin-right: 0;
+}
+
+.col3{
+  padding-right: 0;
+  
+}
+
+.col9{
+  padding: 0;
+  overflow-y:auto;
+}
+
+@media (max-width: 900px) {
+  .row{
+    margin-left: 0;
+  }
+  .col3{
+    visibility: collapse;
+    width: 0vw;
+    height: 0vh;
+  }
+  .col9{
+    width: 100vmax;
+    position: absolute;
+  }
+}
+
+#navMother{
+    height: 100%;
+    background-color: #040B14;
+    background-attachment: scroll;
+    
+}
+
+.Image{
+      margin-top: 30px;
+      margin-left: auto;
+    margin-right: auto; 
+      margin-bottom: 10px;
+      width: 50%;
+      border: 7px solid #2C2F3F;
+  }
+
+  .profileName{
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 18pt;
+      margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .btnSpan{
+      margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+  }
+
+  .btns{
+      color: white;
+      padding: 0;
+      margin-left: 5px;   
+  }
+
+  .links{
+      color: white;
+      padding: 0;
+  }
+  
+  .linkDiv{
+      margin-top: 40px;
+      margin-left: 20px;
+  }
+
+  .linkSpan{
+     display: flex;
+     align-items: center; 
+     margin-bottom: 20px;     
+  }
+
+  .icons{
+    margin-right: 10px;  
+    color: white;
+  }

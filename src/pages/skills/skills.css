@@ -1,0 +1,8 @@
+.cards{
+    padding: 10%;
+    display: inline-flex;
+}
+.card {
+    margin-top: 10%;
+    margin-left: 10%;
+}
